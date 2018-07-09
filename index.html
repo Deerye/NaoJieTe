@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>脑杰特国际大脑检测</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/nav.css"/>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+  <style>
+    div#menu ul li:nth-child(1) a {
+      background-color: #FB9C00;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+<div id="nav"></div>
+<div class="container" style="width: 100%;">
+  <!-- 轮播-->
+  <div class="carousel" id="ad1" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/main1.jpg" alt=""/>
+      </div>
+      <div class="item">
+        <img src="img/main2.jpg" alt=""/>
+      </div>
+      <div class="item">
+        <img src="img/main3.jpg" alt=""/>
+      </div>
+    </div>
+    <!-- 左右箭头-->
+    <a href="#ad1" class="carousel-control left" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a href="#ad1" class="carousel-control right" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+    <!-- 分页页码-->
+    <ul class="carousel-indicators">
+      <li data-slide-to="0" data-target="#ad1" class="active"></li>
+      <li data-slide-to="1" data-target="#ad1"></li>
+      <li data-slide-to="2" data-target="#ad1"></li>
+    </ul>
+  </div>
+  <!-- 版权-->
+  <div class="footer" style="background-color: #fff">
+    <div class="row">
+      <div class="col-md-12 text-center" style="margin-top: 30px">
+        Copyright ©2017 脑杰特国际教育科技发展(北京)有限公司 版权所有
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center" style="margin-bottom: 30px">
+        京公网安备11000002000001号
+        <img src="img/gongan.jpg"/>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<!--<script src="js/bootlint.js"></script>-->
+<script>
+  $("#nav").load("nav.html"
+//          ,function(){
+//    $("#login").html("退出");
+//    $("#login").attr("href","login.html");
+//  }
+  );
+//  bootlint.showLintReportForCurrentDocument([]);
+</script>
+</body>
+</html>
